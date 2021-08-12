@@ -1,3 +1,3 @@
 # Starbucks
 
-### valina project
+### vanilla project

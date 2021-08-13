@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Starbucks Coffee Korea</title>
 
+  <!--Open Graph-->
+  <!--http://ogp.me/-->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Starbucks" />
   <meta property="og:title" content="Starbucks Coffee Korea" />
@@ -14,30 +15,41 @@
   <meta property="og:image" content="../images/starbucks_seo.jpg" />
   <meta property="og:url" content="https://starbucks.co.kr" />
 
+  <!--Twitter Card-->
+  <!--https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started-->
   <meta property="twitter:card" content="summary" />
   <meta property="twitter:site" content="Starbucks" />
   <meta property="twitter:title" content="Starbucks Coffee Korea" />
   <meta property="twitter:description" content="스타벅스는 세계에서 가장 큰 다국적 커피 전문점으로, 64개국에서 총 23,187개의 매점을 운영하고 있습니다." />
   <meta property="twitter:image" content="../images/starbucks_seo.jpg" />
   <meta property="twitter:url" content="https://starbucks.co.kr" />
-  
+
+  <!--파비콘-->
+  <!--<link rel="shortcut icon" href="favicon.ico" />-->
   <link rel="icon" href="../favicon.png" />
+  <!--브라우저 스타일 초기화-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!--Google Fonts - 나눔고딕-->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet" />
+  <!--Google Material Icons-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
   <link rel="stylesheet" href="../css/common.css" />
+  <link rel="stylesheet" href="../css/signin.css" />
 
   <script defer src="../js/common.js"></script>
 </head>
-
 <body>
-  <!-- HEADER -->
+
+  <!--HEADER-->
   <header>
     <div class="inner">
+
       <a href="/" class="logo">
         <img src="../images/starbucks_logo.png" alt="STARBUCKS" />
       </a>
+
       <div class="sub-menu">
         <ul class="menu">
           <li>
@@ -54,10 +66,11 @@
           </li>
         </ul>
         <div class="search">
-          <input type="text">
-          <div class="material-icons">search</div>
+          <input type="text" />
+          <span class="material-icons">search</span>
         </div>
       </div>
+
       <ul class="main-menu">
         <li class="item">
           <div class="item__name">COFFEE</div>
@@ -178,7 +191,7 @@
             </div>
             <div class="contents__texture">
               <div class="inner">
-                <h4 class="new">스타벅스 티바나</h4>
+                <h4>스타벅스 티바나</h4>
                 <p>다양한 찻잎과 향신료 등 개성있는 재료로 새로운 맛과 향의 티를 선보입니다.</p>
               </div>
             </div>
@@ -211,7 +224,7 @@
               <div class="inner">
                 <h4>매장 찾기</h4>
                 <p>보다 빠르게 매장을 찾아보세요.</p>
-                <h4 class="new">청담스타</h4>
+                <h4>청담스타</h4>
                 <p>스타벅스 1,000호점인 청담스타점을 만나보세요.</p>
               </div>
             </div>
@@ -356,25 +369,39 @@
           </div>
         </li>
       </ul>
+
     </div>
   </header>
+
 
   <section class="signin">
     <h1>로그인</h1>
     <div class="signin__card">
-      <h2>Welcome! 스타벅스에 오신 것을 환영합니다.</h2>
-      <form action="">
-        <input type="text" placeholder="아이디를 입력하세요.">
-        <input type="password" placeholder="비밀번호를 입력하세요.">
-        <input type="submit" value="로그인">
+      <h2>
+        <strong>Welcome!</strong> 스타벅스에 오신 것을 환영합니다.
+      </h2>
+      <form>
+        <input type="text" placeholder="아이디를 입력하세요." />
+        <input type="password" placeholder="비밀번호를 입력하세요." />
+        <input type="submit" value="로그인" />
+        <p>
+          * 비밀번호를 타 사이트와 같이 사용할 경우 도용 위험이 있으니,<br />
+          정기적으로 비밀번호를 변경하세요!
+        </p>
       </form>
+      <div class="actions">
+        <a href="javascript:void(0)">회원가입</a>
+        <a href="javascript:void(0)">아이디 찾기</a>
+        <a href="javascript:void(0)">비밀번호 찾기</a>
+      </div>
     </div>
   </section>
 
 
-  <!-- FOOTER -->
+  <!--FOOTER-->
   <footer>
     <div class="inner">
+
       <ul class="menu">
         <li><a href="javascript:void(0)" class="green">개인정보처리방침</a></li>
         <li><a href="javascript:void(0)">영상정보처리기기 운영관리 방침</a></li>
@@ -401,6 +428,7 @@
         &copy; <span class="this-year"></span> Starbucks Coffee Company. All Rights Reserved.
       </p>
       <img src="../images/starbucks_logo_only_text.png" alt="STAR BUCKS" class="logo" />
+
     </div>
   </footer>
 

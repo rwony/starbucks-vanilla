@@ -83,6 +83,7 @@
 
 .signin__card .actions a:hover {
   text-decoration: underline;
+  color: #006633;
 }
 
 .signin__card .actions a:last-child {
